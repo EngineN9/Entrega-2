@@ -1,0 +1,83 @@
+VisualElement {
+}
+
+.contenedor {
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.izquierda {
+    max-width: 500px;
+    min-width: 401px;
+    height: 100px;
+    justify-content: space-between;
+}
+
+.derecha {
+    flex-grow: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.logo {
+    -unity-background-image-tint-color: rgb(196, 196, 196);
+}
+
+.titulo {
+}
+
+.botones {
+}
+
+.footer {
+    width: 100%;
+    align-items: center;
+}
+
+.footerlogo {
+}
+
+.footertexto {
+}
+
+.botonmenu {
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 82, 82, 0.44);
+    -unity-text-align: upper-center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 35px;
+    -unity-font-style: normal;
+    justify-content: flex-start;
+    align-self: auto;
+    transition-duration: 0.5s;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.botonmenu:hover {
+    background-color: rgb(107, 162, 41);
+    color: rgb(0, 0, 0);
+    width: 105%;
+    -unity-font-style: bold-and-italic;
+    font-size: 35px;
+}
+
+.earth {
+}
+
+.phantasy {
+}
+
+.Level {
+}
+
+.back {
+}
